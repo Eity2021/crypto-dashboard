@@ -17,7 +17,7 @@ export default function MainContent({
   setTimeframe,
 }) {
   return (
-    <div>
+    <div className="container">
       {/* Main Content */}
       <div className="flex-1 overflow-auto">
         {/* Header */}
