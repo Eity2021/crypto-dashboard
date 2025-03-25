@@ -30,10 +30,10 @@ export default function PriceChart() {
         </div>
 
         <div>
-          <div className="absolute bottom-[20px] right-[50px] w-[88%]">
+          <div className="absolute bottom-[22px] right-[60px] w-[88%]">
             <img src={vector1} alt="vector1" className="w-[100%]" />
           </div>
-          <div className="absolute top-[3px] right-[50px] w-[88%]">
+          <div className="absolute top-[3px] right-[60px] w-[88%]">
             <img src={vector2} alt="vector2" className="w-[100%]" />
           </div>
         </div>
