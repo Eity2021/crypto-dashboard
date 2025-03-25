@@ -21,7 +21,6 @@ export default function MainContent({
       {/* Main Content */}
       <div className="flex-1 overflow-auto">
         {/* Header */}
-
         <Header></Header>
 
         {/* Dashboard Content */}
