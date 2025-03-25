@@ -24,8 +24,8 @@ export default function CryptoDashboard() {
   const [overviewPeriod, setOverviewPeriod] = useState("Monthly");
 
   return (
- <div className="bg-[#1E1A2F]">
-     <div className="flex h-screen bg-[#1E1A2F] text-white ">
+ <div className="bg-[rgba(38,30,53,1)]">
+     <div className="flex h-screen  bg-[rgba(38, 30, 53, 1)] text-white ">
       <SideBar></SideBar>
       <MainContent
         overviewPeriod={overviewPeriod}

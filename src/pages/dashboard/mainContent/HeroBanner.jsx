@@ -13,14 +13,14 @@ export default function HeroBanner() {
 
   return (
     <div
-      className="col-span-6 rounded-2xl  p-8 relative overflow-hidden border-2 border-[#000]"
+      className="col-span-6 rounded-[20px]  p-8 relative overflow-hidden border-2 border-[#000]"
       style={{
         background:
           "linear-gradient(253.1deg, rgba(255, 122, 122, 0.56) 14.23%, #2A0FD3 101.22%)",
       }}
     >
       <div className="relative z-10">
-        <div className="font-inter font-bold text-[10px] leading-[100%] tracking-[10%] ">
+        <div className="font-inter font-[700] text-[10px] leading-[100%] tracking-[10%] ">
           ETHEREUM 2.0
         </div>
         <h2 className="text-inter  font-[700]  text-[30px] leading-[120%] tracking-[0%] pt-[15px]">
