@@ -29,12 +29,12 @@ export default function HeroBanner() {
           into Blockchain
         </h2>
         <p className="text-inter  font-[500]  text-[14px] leading-[135%] tracking-[0%] mt-[15px]">
-           Paronia is a blockchain platform.
+          Paronia is a blockchain platform.
           <br />
-           We make blockchain accessible.
+          We make blockchain accessible.
         </p>
-        <div className="rounded-[10px] w-[144px] h-[43px] flex justify-center alignItems-center mt-[35px] bg-[#261B4C] hover:bg-[#261B4C] transition-all duration-300" >
-          <button className=" text-inter  font-[700]  text-[16px] leading-[100%] tracking-[0%]" >
+        <div className="rounded-[10px] w-[144px] h-[43px] flex justify-center alignItems-center mt-[35px] bg-[#261B4C] hover:bg-[#261B4C] transition-all duration-300">
+          <button className=" text-inter  font-[700]  text-[16px] leading-[100%] tracking-[0%]">
             Learn More.
           </button>
         </div>
@@ -44,7 +44,7 @@ export default function HeroBanner() {
       <div className="absolute right-[-100px] top-0 h-full w-1/2 pointer-events-none">
         <img src={SuperToroidBlackMatte} alt="SuperToroidBlackMatte" />
       </div>
-      <div className="absolute right-[-280px] bottom-[-170px] h-full w-1/2 pointer-events-none">
+      <div className="absolute right-[-280px] bottom-[-180px] h-full w-1/2 pointer-events-none">
         <img src={ImageWhite} alt="ImageWhite" />
       </div>
       <div className="absolute right-[-170px] bottom-[-90px] h-full w-1/2 pointer-events-none">
@@ -56,7 +56,7 @@ export default function HeroBanner() {
       <div className="absolute right-[-17px] bottom-[-112px] h-full w-1/2 pointer-events-none">
         <img src={PillBlueGlossy} alt="PillBlueGlossy" />
       </div>
-      <div className="absolute right-[-162px] bottom-[-248px] h-full w-1/2 pointer-events-none">
+      <div className="absolute right-[-162px] bottom-[-262px] h-full w-1/2 pointer-events-none">
         <img src={SpherePurpleGlossy} alt="SpherePurpleGlossy" />
       </div>
     </div>
