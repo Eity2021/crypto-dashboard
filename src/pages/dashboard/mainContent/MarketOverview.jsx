@@ -1,21 +1,22 @@
 import React from 'react'
-import {
-    ChevronDown,
-
-  } from "lucide-react";
+import ArrowDown from "../../../../public/image/ArrowDown.png";
 import MarketOverviewChart from '../MarketOverviewChart';
 export default function MarketOverview({overviewPeriod}) {
   return (
-     <div className="col-span-6 bg-gray-800/50 rounded-2xl p-6">
-          <div className="flex justify-between items-center mb-6">
-            <h3 className="font-medium text-lg">Market Overview</h3>
-            <button className="px-4 py-1.5 rounded-lg bg-gray-700 text-sm font-medium flex items-center">
-              {overviewPeriod}
-              <ChevronDown size={16} className="ml-2" />
-            </button>
+     <div className="col-span-6 bg-[#3C354A] rounded-[20px]  border border-[#FFFFFF80] px-6 pt-6 pb-8">
+          <div className="flex justify-between items-center mb-8">
+            <h3 className="font-inter font-[700] text-[18px] leading-[100%] tracking-[0%] text-[#FFFFFF] ">Market Overview</h3>
+
+                 <div className="flex items-center space-x-2 bg-[rgba(26,17,29,0.7)] px-[13px] py-[10px] rounded-[10px] cursor-pointer">
+                  
+                      <span className="font-inter font-[700] text-[14px] leading-[100%] tracking-[10%] text-[#fff]">
+                        {overviewPeriod}
+                      </span>
+                      <img src={ArrowDown} alt="ArrowDown" />
+                    </div>
           </div>
 
-          <div className="h-48 relative">
+          <div className="h-48 ">
             <MarketOverviewChart />
           </div>
         </div>

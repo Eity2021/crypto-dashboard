@@ -8,7 +8,7 @@ export default function Chart({ timeframe, setTimeframe }) {
   return (
     <div className="col-span-6   p-6 rounded-[25px] bg-[linear-gradient(126.6deg,_rgba(255,255,255,0.12)_28.69%,_rgba(255,255,255,0)_100%)] border-2 border-[#FFFFFF80]">
       <div className="flex justify-between items-center mb-6">
-        <div className="flex items-center space-x-2 bg-[rgba(26,17,29,0.7)] px-[13px] py-[10px] rounded-[10px]">
+        <div className="flex items-center space-x-2 bg-[rgba(26,17,29,0.7)] px-[13px] py-[10px] rounded-[10px] cursor-pointer">
           <div>
             <img src={Frame} alt="Frame" />
           </div>
