@@ -4,7 +4,7 @@ import HeaderAvatar from "../../../../public/image/HeaderAvatar.png";
 import backArrow from "../../../../public/image/backArrow.png";
 export default function Header() {
   return (
-    <header className="flex items-center justify-between p-4">
+    <header className="block  md:flex items-center justify-between p-4">
       <div className="flex items-center gap-4">
         <div>
           <img src={backArrow} alt="backArrow"/>
@@ -12,7 +12,7 @@ export default function Header() {
         <h1 className="font-inter font-[700] text-[14px] leading-[100%] tracking-[0%] text-[#fff]">Home</h1>
       </div>
 
-      <div className="flex items-center space-x-4">
+      <div className="flex items-center space-x-4 mt-4 md:mt-0" >
         <div className="relative">
           <input
             type="text"

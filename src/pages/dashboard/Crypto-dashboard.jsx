@@ -1,20 +1,5 @@
 import { useState } from "react";
-import {
-  ArrowLeft,
-  Search,
-  Bell,
-  Home,
-  BarChart2,
-  Briefcase,
-  Settings,
-  LogOut,
-  ChevronDown,
-  ChevronRight,
-  Plus,
-  Send,
-  ArrowUp,
-  ArrowDown,
-} from "lucide-react";
+
 
 import SideBar from "./SideBar";
 import MainContent from "./mainContent/MainContent";
