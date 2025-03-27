@@ -8,15 +8,12 @@ import PillBlueGlossy from "../../../../public/image/Pill-Blue-Glossy.png";
 import SpherePurpleGlossy from "../../../../public/image/Sphere-Purple-Glossy.png";
 
 export default function HeroBanner() {
-  // bg-[linear-gradient(to_right,rgba(42,15,211,0.10)_10%,rgba(255,122,122,0.56)_90%)]
-  // background: linear-gradient(253.1deg, rgba(255, 122, 122, 0.56) 14.23%, #2A0FD3 101.22%);
-
   return (
     <div
-      className="col-span-6 rounded-[20px]  p-8 relative overflow-hidden border-2 border-[#000]"
+      className="rounded-[20px]  p-[37px] relative overflow-hidden border-2 border-[#000]"
       style={{
         background:
-          "linear-gradient(253.1deg, rgba(255, 122, 122, 0.56) 14.23%, #2A0FD3 101.22%)",
+          "linear-gradient(225.1deg, rgba(255, 122, 122, 0.56) 14.23%, #2A0FD3 101.22%)",
       }}
     >
       <div className="relative z-10">
@@ -39,8 +36,6 @@ export default function HeroBanner() {
           </button>
         </div>
       </div>
-
-      {/* 3D Objects */}
       <div className="absolute right-[-100px] top-0 h-full w-1/2 pointer-events-none">
         <img src={SuperToroidBlackMatte} alt="SuperToroidBlackMatte" />
       </div>

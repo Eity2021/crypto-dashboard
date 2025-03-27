@@ -65,7 +65,8 @@ export default function PriceCard() {
     <div className="w-[100%] ">
       <Swiper
         modules={[Navigation]}
-        spaceBetween={2}
+
+   
         // slidesPerView={3}
         navigation
         breakpoints={{
@@ -74,9 +75,11 @@ export default function PriceCard() {
           },
           990: {
             slidesPerView: 2,
+            spaceBetween:24
           },
           1170: {
             slidesPerView: 3,
+            spaceBetween:6
           },
         }}
       >
