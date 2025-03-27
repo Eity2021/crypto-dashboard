@@ -24,38 +24,38 @@ export default function MainContent({
           <HeroBanner></HeroBanner>
           <Chart timeframe={timeframe} setTimeframe={setTimeframe}></Chart>
         </div>
+        <div className="p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4">
+  {/* Left Section */}
+  <div className="md:col-span-1 lg:col-span-6">
+    <div>
+      <PriceCard />
+    </div>
+    <div className="mt-4 md:mt-8">
+      <MarketOverview overviewPeriod={overviewPeriod} />
+    </div>
+  </div>
 
-        <div className="p-4 grid grid-cols-12 gap-4">
-          <div className="col-span-6 ">
-            <PriceCard></PriceCard>
-            <div className="mt-8">
-              <MarketOverview overviewPeriod={overviewPeriod}></MarketOverview>
-            </div>
-          </div>
-          <div className="col-span-6">
-            <div className="grid grid-cols-3 gap-4">
-              <div>
-                <QuickTransfer></QuickTransfer>
-              </div>
+  {/* Right Section */}
+  <div className="md:col-span-1 lg:col-span-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div>
+        <QuickTransfer />
+      </div>
+      <div className="sm:col-span-1 lg:col-span-2">
+        <MarketTrend />
+      </div>
+    </div>
 
-              <div className="col-span-2">
-                <MarketTrend></MarketTrend>
-              </div>
-            </div>
-            <div className="grid grid-cols-3 gap-4 mt-8">
-              <div>
-                <Profit></Profit>
-              </div>
-
-              <div className="col-span-2">
-                <Assets></Assets>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 md:mt-8">
+      <div>
+        <Profit />
+      </div>
+      <div className="sm:col-span-1 lg:col-span-2">
+        <Assets />
+      </div>
+    </div>
+  </div>
+</div>
       </div>
     </div>
   );

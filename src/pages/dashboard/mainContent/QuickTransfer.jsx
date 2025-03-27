@@ -9,13 +9,13 @@ export default function QuickTransfer() {
       <h3 className="font-inter font-[700] text-[18px] leading-[100%] tracking-[0%] text-[#FFFFFF] mb-6">Quick Transfer</h3>
 
       <div className="flex justify-between mb-6">
-        <div className="h-14 w-14 rounded-full bg-gray-700 flex items-center justify-center overflow-hidden">
+        <div className="flex items-center justify-center overflow-hidden">
           <div className=" flex items-center justify-center">
             <img src={avatar} alt="avatar" />
           </div>
         </div>
 
-        <div className="h-14 w-14 rounded-full bg-gray-700 flex items-center justify-center overflow-hidden">
+        <div className=" flex items-center justify-center overflow-hidden">
         <div className=" flex items-center justify-center">
             <img src={avatar2} alt="avatar2" />
           </div>

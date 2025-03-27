@@ -71,7 +71,7 @@ export default function PriceCard() {
         navigation
         breakpoints={{
           640: {
-            slidesPerView: 1,
+            slidesPerView: 2,
           },
           990: {
             slidesPerView: 2,

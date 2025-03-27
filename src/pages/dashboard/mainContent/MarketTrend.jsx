@@ -78,7 +78,7 @@ export default function MarketTrend() {
       </div>
       <div>
         {trendData.map((data) => (
-          <div className="grid grid-cols-3 items-center pt-[11px]">
+          <div className="grid grid-cols-3 items-center pt-[11px]" key={data.id}>
             <div className="flex items-center">
               <span className="font-inter font-[400] text-[11.73px] leading-[16.75px] tracking-[0%] text-[#FFFFFF]">
                 {data.name}
