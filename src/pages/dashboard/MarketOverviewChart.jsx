@@ -30,16 +30,17 @@ export default function MarketOverviewChart() {
       </div>
 
       <div>
-        <div className="absolute bottom-[-3px] right-[60px] w-[88%]">
+      {/* bottom-[50px] right-[36px] xl:bottom-[40px]  2xl:bottom-[-3px] 2xl:right-[60px] */}
+        <div className="absolute   top-[4px] left-[26px]    w-[88%]">
           <img src={mGraph2} alt="mGraph2" className="w-[100%]" />
         </div>
-        <div className="absolute bottom-[22px] right-[60px] w-[88%]">
+        <div className="absolute bottom-[22px] left-[26px] w-[88%]">
           <img src={mGraph} alt="mGraph" className="w-[100%]" />
         </div>
-        <div className="absolute bottom-[22px] right-[60px] w-[88%]">
+        <div className="absolute  bottom-[22px] left-[26px] w-[88%]">
           <img src={mGraph1} alt="mGraph1" className="w-[100%]" />
         </div>
-        <div className="absolute bottom-[35px] right-[382px] ">
+        <div className="absolute  top-[-20px] left-[240px]  md:left-[165px] lg:left-[250px] xl:left-[350px]">
           <img src={lineGraph} alt="lineGraph" className="" />
         </div>
       </div>
